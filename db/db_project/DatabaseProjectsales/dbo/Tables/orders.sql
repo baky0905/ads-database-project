@@ -1,0 +1,16 @@
+CREATE TABLE [dbo].[orders] (
+    [ORD_NUM]         DECIMAL (6)     NOT NULL,
+    [ORD_AMOUNT]      DECIMAL (12, 2) NOT NULL,
+    [ADVANCE_AMOUNT]  DECIMAL (12, 2) NOT NULL,
+    [ORD_DATE]        DATE            NOT NULL,
+    [CUST_CODE]       VARCHAR (6)     NOT NULL,
+    [AGENT_CODE]      CHAR (6)        NOT NULL,
+    [ORD_DESCRIPTION] VARCHAR (60)    NOT NULL,
+    PRIMARY KEY CLUSTERED ([ORD_NUM] ASC),
+    FOREIGN KEY ([AGENT_CODE]) REFERENCES [dbo].[agents] ([AGENT_CODE]),
+    FOREIGN KEY ([CUST_CODE]) REFERENCES [dbo].[customer] ([CUST_CODE])
+);
+
+
+GO
+

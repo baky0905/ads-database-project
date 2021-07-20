@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xIq86ylkUPKuwkzYHcFr50l7rOOp0aCra6RU8d2tLe7vYpfeyvypBduesoh19PxZCXwDPAFsvlB8Ex4KHNGhwQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\kbaka\\_Projects\\2021_07_18_AzureSql\\db\\db_project\\DatabaseProjectsales\\DatabaseProjectsales.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kbaka\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\kbaka\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.0\\microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

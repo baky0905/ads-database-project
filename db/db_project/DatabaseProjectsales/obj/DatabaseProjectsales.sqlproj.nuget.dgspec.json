@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\kbaka\\_Projects\\2021_07_18_AzureSql\\db\\db_project\\DatabaseProjectsales\\DatabaseProjectsales.sqlproj": {}
+  },
+  "projects": {
+    "c:\\Users\\kbaka\\_Projects\\2021_07_18_AzureSql\\db\\db_project\\DatabaseProjectsales\\DatabaseProjectsales.sqlproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\kbaka\\_Projects\\2021_07_18_AzureSql\\db\\db_project\\DatabaseProjectsales\\DatabaseProjectsales.sqlproj",
+        "projectName": "DatabaseProjectsales",
+        "projectPath": "c:\\Users\\kbaka\\_Projects\\2021_07_18_AzureSql\\db\\db_project\\DatabaseProjectsales\\DatabaseProjectsales.sqlproj",
+        "packagesPath": "C:\\Users\\kbaka\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\kbaka\\_Projects\\2021_07_18_AzureSql\\db\\db_project\\DatabaseProjectsales\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\kbaka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net46"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net46": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net46": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

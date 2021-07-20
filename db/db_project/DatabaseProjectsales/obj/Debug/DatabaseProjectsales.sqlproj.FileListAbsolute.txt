@@ -1,0 +1,10 @@
+c:\Users\kbaka\_Projects\2021_07_18_AzureSql\db\db_project\DatabaseProjectsales\bin\Debug\DatabaseProjectsales.dacpac
+c:\Users\kbaka\_Projects\2021_07_18_AzureSql\db\db_project\DatabaseProjectsales\bin\Debug\DatabaseProjectsales.dll
+c:\Users\kbaka\_Projects\2021_07_18_AzureSql\db\db_project\DatabaseProjectsales\bin\Debug\DatabaseProjectsales.pdb
+c:\Users\kbaka\_Projects\2021_07_18_AzureSql\db\db_project\DatabaseProjectsales\obj\Debug\DatabaseProjectsales.sqlproj.AssemblyReference.cache
+c:\Users\kbaka\_Projects\2021_07_18_AzureSql\db\db_project\DatabaseProjectsales\obj\Debug\Model.xml
+c:\Users\kbaka\_Projects\2021_07_18_AzureSql\db\db_project\DatabaseProjectsales\obj\Debug\refactor.xml
+c:\Users\kbaka\_Projects\2021_07_18_AzureSql\db\db_project\DatabaseProjectsales\obj\Debug\postdeploy.sql
+c:\Users\kbaka\_Projects\2021_07_18_AzureSql\db\db_project\DatabaseProjectsales\obj\Debug\predeploy.sql
+c:\Users\kbaka\_Projects\2021_07_18_AzureSql\db\db_project\DatabaseProjectsales\obj\Debug\DatabaseProjectsales.dll
+c:\Users\kbaka\_Projects\2021_07_18_AzureSql\db\db_project\DatabaseProjectsales\obj\Debug\DatabaseProjectsales.pdb
