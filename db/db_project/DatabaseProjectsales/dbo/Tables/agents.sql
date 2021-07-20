@@ -5,6 +5,7 @@ CREATE TABLE [dbo].[agents] (
     [COMMISSION]   DECIMAL (10, 2) NULL,
     [PHONE_NO]     CHAR (15)       NULL,
     [COUNTRY]      VARCHAR (25)    NULL,
+    [KRISTIJAN]    VARCHAR (25)    NULL,
     PRIMARY KEY CLUSTERED ([AGENT_CODE] ASC)
 );
 

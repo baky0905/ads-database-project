@@ -41,7 +41,7 @@
 		<Element Type="SqlForeignKeyConstraint">
 			<Relationship Name="Columns">
 				<Entry>
-					<References Name="[dbo].[orders].[CUST_CODE]" />
+					<References Name="[dbo].[orders].[AGENT_CODE]" />
 				</Entry>
 			</Relationship>
 			<Relationship Name="DefiningTable">
@@ -51,12 +51,12 @@
 			</Relationship>
 			<Relationship Name="ForeignColumns">
 				<Entry>
-					<References Name="[dbo].[customer].[CUST_CODE]" />
+					<References Name="[dbo].[agents].[AGENT_CODE]" />
 				</Entry>
 			</Relationship>
 			<Relationship Name="ForeignTable">
 				<Entry>
-					<References Name="[dbo].[customer]" />
+					<References Name="[dbo].[agents]" />
 				</Entry>
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="3" />
@@ -87,7 +87,7 @@
 		<Element Type="SqlForeignKeyConstraint">
 			<Relationship Name="Columns">
 				<Entry>
-					<References Name="[dbo].[orders].[AGENT_CODE]" />
+					<References Name="[dbo].[orders].[CUST_CODE]" />
 				</Entry>
 			</Relationship>
 			<Relationship Name="DefiningTable">
@@ -97,12 +97,12 @@
 			</Relationship>
 			<Relationship Name="ForeignColumns">
 				<Entry>
-					<References Name="[dbo].[agents].[AGENT_CODE]" />
+					<References Name="[dbo].[customer].[CUST_CODE]" />
 				</Entry>
 			</Relationship>
 			<Relationship Name="ForeignTable">
 				<Entry>
-					<References Name="[dbo].[agents]" />
+					<References Name="[dbo].[customer]" />
 				</Entry>
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="5" />
@@ -251,6 +251,22 @@
 				</Entry>
 				<Entry>
 					<Element Type="SqlSimpleColumn" Name="[dbo].[agents].[COUNTRY]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="25" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[agents].[KRISTIJAN]">
 						<Relationship Name="TypeSpecifier">
 							<Entry>
 								<Element Type="SqlTypeSpecifier">
@@ -621,8 +637,8 @@
 				</Entry>
 			</Relationship>
 			<AttachedAnnotation Disambiguator="8" />
-			<AttachedAnnotation Disambiguator="5" />
 			<AttachedAnnotation Disambiguator="3" />
+			<AttachedAnnotation Disambiguator="5" />
 		</Element>
 	</Model>
 </DataSchemaModel>
